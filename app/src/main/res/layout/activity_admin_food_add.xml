@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A04000"
+    android:padding="15dp"
+    tools:context=".AdminFoodAddActivity">
+
+    <EditText
+        android:id="@+id/FoodNameEditText_ID"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:textColor="@color/black"
+        android:hint="Food Name"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:background="@drawable/edit_text_box"
+        android:layout_centerHorizontal="true"
+        />
+    <EditText
+        android:id="@+id/FoodPriceEditText_ID"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:textColor="@color/black"
+        android:hint="Food Price"
+        android:layout_marginTop="70dp"
+        android:paddingLeft="20dp"
+        android:background="@drawable/edit_text_box"
+        android:layout_centerHorizontal="true"
+
+        />
+    <EditText
+        android:id="@+id/FoodDescriptionEditText_ID"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:textColor="@color/black"
+        android:hint="Food Description"
+        android:layout_marginTop="500dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="30dp"
+        android:background="@drawable/edit_text_box"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/ChooseImageButton_ID"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Choose Image"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="440dp"
+        android:textAllCaps="false"
+        />
+    <Spinner
+        android:id="@+id/FoodItemSpinner_ID"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="440dp"
+        android:entries="@array/Food_Item"
+
+
+
+        />
+
+    <Button
+        android:id="@+id/SavePostButton_ID"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="200dp"
+        android:text="Post"
+        android:textStyle="bold"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/edit_text_box"
+        />
+    <ImageView
+        android:id="@+id/ImageView_ID"
+        android:layout_marginTop="125dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+
+        />
+    <ProgressBar
+        android:id="@+id/ProgressBar_ID"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+
+        />
+
+
+
+
+
+
+</RelativeLayout>

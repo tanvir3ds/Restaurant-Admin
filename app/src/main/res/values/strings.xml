@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RestaurantApplication</string>
+    <string name="title_app">Restaurant</string>
+
+    <array name="Food_Item">
+
+        <item>Burger</item>
+        <item>Pizza</item>
+        <item>Fast Food</item>
+
+
+    </array>
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1236A7 "
+    android:padding="15dp">
+
+
+    <EditText
+        android:id="@+id/Update_FoodNameEditText_ID"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:textColor="@color/black"
+        android:hint="Update Food Name"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:background="@drawable/edit_text_box"
+        android:layout_centerHorizontal="true"
+        />
+    <EditText
+        android:id="@+id/Update_FoodPriceEditText_ID"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:textColor="@color/black"
+        android:hint="Update Food Price"
+        android:layout_marginTop="70dp"
+        android:paddingLeft="20dp"
+        android:background="@drawable/edit_text_box"
+        android:layout_centerHorizontal="true"
+
+        />
+    <EditText
+        android:id="@+id/Update_FoodDescriptionEditText_ID"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:textColor="@color/black"
+        android:hint="Update Food Description"
+        android:layout_marginTop="440dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="30dp"
+        android:background="@drawable/edit_text_box"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/Update_ChooseImageButton_ID"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="choose image"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="390dp"
+        android:textAllCaps="false"
+        />
+    <Spinner
+        android:id="@+id/Update_FoodItemSpinner_ID"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="390dp"
+        android:entries="@array/Food_Item"
+
+
+
+        />
+
+    <Button
+        android:id="@+id/Update_SavePostButton_ID"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="200dp"
+        android:text="Update"
+        android:textStyle="bold"
+        android:layout_marginTop="530dp"
+        android:background="@drawable/edit_text_box"
+        />
+    <ImageView
+        android:id="@+id/Update_ImageView_ID"
+        android:layout_marginTop="125dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+
+        />
+    <ProgressBar
+        android:id="@+id/Update_ProgressBar_ID"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+
+        />
+
+</RelativeLayout>

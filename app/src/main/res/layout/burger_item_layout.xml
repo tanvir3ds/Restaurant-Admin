@@ -1,0 +1,67 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="30dp"
+    >
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/roundcardbackground"
+        android:paddingBottom="10dp"
+       android:layout_marginBottom="20dp"
+
+        >
+
+        <TextView
+            android:id="@+id/CardViewFoodName_ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="330dp"
+            android:text=" Food Name"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:paddingLeft="20dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            />
+        <TextView
+            android:id="@+id/CardViewFoodPrice_ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="360dp"
+            android:text=" Food Price"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:paddingLeft="20dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            />
+
+        <ImageView
+            android:id="@+id/CardImageView_ID"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            />
+
+        <TextView
+            android:id="@+id/CardViewFoodDescription_ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="390dp"
+            android:text="Food Describtion"
+            android:paddingLeft="10dp"
+
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>
